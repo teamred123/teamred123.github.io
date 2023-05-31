@@ -1,0 +1,217 @@
+#contenedor{
+    border:5px solid black;   
+}
+
+
+#cabecera{   
+
+    background-color:#23EAF3;
+    padding: 30px;
+    text-align: center;
+}
+
+#imglogo{
+
+width: 60px;
+height: auto;
+float: left;
+
+}
+
+
+.izquierdo {
+	float:left; 
+    width:20%; 
+    text-align:center; 
+    padding:20px; 
+	background-color:orange; 
+
+    height: 100%;
+    margin-top:7px;
+
+
+	
+}
+
+
+.derecho {
+	float:right; 
+    width:20%; 
+    text-align:center; 
+    padding:20px; 
+	background-color:aqua; 
+
+    height: 100%;
+    margin-top:7px; 
+
+	
+}
+* {
+    box-sizing: border-box; 
+  }
+
+#scroll{
+
+    overflow: auto;
+}
+
+.cuerpo{
+
+background-color: #6bcccaad;
+padding: 30px;
+text-align: justify;
+
+
+height: 100%;
+margin-top:7px; 
+float:left; 
+width:60%; 
+
+
+}
+
+
+#alinear{
+    display: flex;
+    
+    margin: 7px;
+overflow: auto;
+    }
+
+
+
+ @media only screen and (max-width:620px) { 
+	  .izquierdo, .derecho, .cuerpo { 
+		width:100%;
+        height: auto;
+        
+        
+	  }   
+    .img{
+
+        width:100%;
+        max-width:400px;
+    }
+     
+    video{
+
+        width:100%;
+        max-width:400px;
+    }
+
+    video{
+
+        width:100%;
+        max-width:400px;
+    }
+
+    table{
+
+        width:100%;
+        max-width:400px;
+    }
+
+}
+    
+	
+
+
+  
+
+.pie{
+background-color:#ad32ff;
+text-align: center;
+padding: 10px;  
+}
+
+body{
+    /*background-color:aliceblue;*/
+    background-image:url("imagenes/luna.jpg");
+} 
+
+
+h1, h2, h3, h4{
+    font-family:Impact,'Arial Narrow Bold', sans-serif;
+    text-decoration: underline palegreen;
+
+}
+
+
+p{
+  font-size: 12;
+  font-family: Arial;
+  text-align:justify;
+}
+
+a{
+    color: orchid;
+    font-family: cursive;
+    font-weight:bolder ;
+}
+
+
+.img{
+    display:block; 
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+
+.class1 {
+    
+    width: 300px;
+     height:150px;
+}
+
+
+.class2 {
+    
+    width:440px;
+     height:380px;
+}
+
+.class3{
+
+     
+    width:340px;
+     height:280px;
+}
+
+
+video{
+    width:640;
+     height:480;
+     margin-left:auto;
+     margin-right: auto;
+     display: block;
+     
+}
+
+table, td, th { 
+    border: 2px solid blue; 
+    width:640;
+    height:100;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+
+
+.izquierdo a {
+    background-color:hsla(0.19turn,100%,50%,0.5);  
+    padding:7px; 
+    margin-top:7px;
+    display:block; 
+    width:100%; 
+    color:white; 
+    font-weight: bolder;
+    text-align:center; 
+    text-decoration:none; 
+}
+
+
+.izquierdo a:hover{
+    background-color:hsla(0.5turn,100%,30%,0.2);  
+    }
